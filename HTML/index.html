@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Virtual ALARM CLOCK </title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <script src="https://kit.fontawesome.com/44b0b2927e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- heading for the alarm page -->
+    <h1> SET Your Alarm </h1>
+
+
+    <!-- creating a container/div for the live clock, alart time and start stop buttons  -->
+    <div id="alarm-container">
+
+        <div id="clockimg" class="fa-3x">  
+            <i class="fa-solid fa-stopwatch fa-shake"></i>
+
+        </div>
+
+
+        <!-- live clock -->
+        <div id="live-clock">
+            <h1>
+                <span id="hours"></span> :
+                <span id="minutes"></span> :
+                <span id="seconds"></span>
+                <span id="ampm"></span>
+            </h1>
+
+        </div>
+
+        <!-- <div id="setAlarm">
+            <input type="datetime-local" onchange="setAlarm(this.value)">
+        </div> -->
+
+
+
+        <!-- options to select time for alarm -->
+        <div class="time-menu" id="set-Time">
+            <select name="hours" id="hour-options">
+                <option value="hours" selected hidden> Hours </option>
+            </select>
+            <select name="mins" id="mins-options">
+                <option value="minutes" selected hidden> Minutes </option>
+            </select>
+            <select name="secs" id="secs-options">
+                <option value="seconds" selected hidden> Seconds </option>
+            </select>
+            <select name="ampm" id="ampm">
+                <option value="ampm" selected hidden> AM/PM </option>
+
+            </select>
+
+        </div>
+    </div>
+
+
+    <!-- start and stop buttons -->
+    <div id="btn">
+        <button id="start" class="buttons startButton" type="submit"> Set Alarm</button>
+        <button id="stop" class="buttons stopButton" type="reset">reset</button>
+    </div>
+
+
+
+    <!-- list of alarms that are set -->
+    
+
+    <div id="alarms-List">
+
+    </div>
+
+
+
+
+
+    <!-- script tag to add javascript functionalities  -->
+    <script type="text/javascript" src="../JS/index.js"></script>
+</body>
+
+</html>

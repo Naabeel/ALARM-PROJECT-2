@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    text-align: center;
+    background-color: rgb(27, 25, 25);
+
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    color: bisque;
+}
+
+#alarm-container {
+    height: 80vh;
+    width: 40vw;
+    border: 3px solid rgba(241, 226, 8, 0.822);
+    border-radius: 100%;
+    margin-left: 23em;
+    margin-top: -16px;
+}
+
+#clockimg {
+    margin-top: 18px;
+    color: aquamarine;
+}
+
+#setAlarm {
+    padding: 10px;
+    margin: auto;
+
+}
+
+#setAlarm input {
+    height: 2em;
+}
+
+#btn {
+    padding: 7px 10px;
+    margin-left: 10px;
+}
+
+.buttons {
+    padding: 7px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+.startButton {
+    background-color: darkolivegreen;
+    color: azure;
+}
+
+.stopButton {
+    background-color: darkred;
+    color: beige;
+}
+
+div h1 span {
+    font-size: 5vw;
+    color: gold;
+}
+
+#set-Time {
+    margin-bottom: 1em;
+}
+
+/* #time-menu #set-Time select{
+    height: 2em;
+    width: 2rem;
+    border: 2px solid rgb(189, 45, 45);
+    border-radius: 5px;
+    margin : 0px 0px 10px 10px;
+} */
+
+#alarms-List {
+    height: auto;
+    width: 80vw;
+    border: 1px solid rgb(182, 174, 174);
+    margin-left: 8em;
+    margin-top: 1em;
+    background-color: rgba(240, 189, 113, 0.274);
+}
+
+#alarms-List p {
+    padding: 12px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    font-weight: 600;
+    /* margin: 5% 10% 5% 10%; */
+    /* margin-left: 15px; */
+    /* margin-top: 16px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+#deleteBtn {
+    margin-top: 10px;
+}
+
+
+
+#listDiv {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+
+}
+
+
+select {
+    height: auto;
+    width: fit-content;
+    padding: 10px;
+
+}
